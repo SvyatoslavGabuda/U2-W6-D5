@@ -1,0 +1,27 @@
+@for $i from 0 to 6 {
+    .mypx-#{$i} {
+        padding-left: $i*$paddingSmal;
+        padding-right: $i*$paddingSmal;
+    }
+}
+@for $i from 0 to 6 {
+    .mypy-#{$i} {
+        padding-top: $i*$paddingSmal;
+        padding-bottom: $i*$paddingSmal;
+    }
+}
+@for $i from 0 to 6 {
+    .myp-#{$i} {
+        padding-top: $i*$paddingBigl;
+        padding-bottom: $i*$paddingBigl;
+        padding-left: $i*$paddingBigl;
+        padding-right: $i*$paddingBigl;
+        @media screen and (max-width:575px) {
+            padding-top: $i*$paddingSmal;
+        padding-bottom: $i*$paddingSmal;
+        padding-left: $i*$paddingSmal;
+        padding-right: $i*$paddingSmal;
+            
+        }
+    }
+}

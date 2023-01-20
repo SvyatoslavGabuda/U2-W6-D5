@@ -1,0 +1,53 @@
+.primo{
+    background-color: $color1;
+    color: cambiaColore($color1);
+    h1{
+        
+        word-spacing: 130px;
+        text-align: center;
+        word-wrap: break-word;
+        @media screen and (min-width:575px) {
+            word-spacing: unset;
+        text-align: left;
+            
+        }
+    }
+    .titoliSecondari{
+        @media screen and (min-width:575px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        @media screen and (min-width:768px) {
+            display: block;
+           
+            
+        }
+
+    }
+}
+.partners{
+    background-color: $color1;
+    color: cambiaColore($color1);
+
+    .card{
+        border: 2px solid $color7;
+        background-color: $color4;
+        color: cambiaColore($color4);
+        background-image: $gradien2;
+        img{
+            border: 10px groove $color10;
+        } 
+        h5{
+            font-size: 2em;
+        }
+        h6{
+            color: $colorText2;
+        }
+        p{
+            font-family: monospace;
+        }
+    }
+}

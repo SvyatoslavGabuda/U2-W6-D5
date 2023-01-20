@@ -1,0 +1,8 @@
+@function cambiaColore($color) {
+    @if (lightness($color) > 50) {
+      @return $colorText;
+    }
+    @else {
+      @return $colorText4;
+    }
+}

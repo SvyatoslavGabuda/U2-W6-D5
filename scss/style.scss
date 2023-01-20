@@ -1,0 +1,13 @@
+@import './partials/var-colors';
+@import './partials/function';
+@import './partials/header';
+@import './partials/main';
+@import './partials/footer';
+@import './partials/button';
+@import './partials/mypadding';
+
+
+body{
+    background-color: $color2;
+    
+}
