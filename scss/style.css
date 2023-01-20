@@ -169,6 +169,10 @@ header nav ul .dropdown .dropdown-content a:hover {
 .partners .card img {
   border: 10px groove #34d408;
 }
+.partners .card img:hover {
+  z-index: 5;
+  transform: scale(2);
+}
 .partners .card h5 {
   font-size: 2em;
 }

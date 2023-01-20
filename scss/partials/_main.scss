@@ -39,6 +39,10 @@
         background-image: $gradien2;
         img{
             border: 10px groove $color10;
+            &:hover{
+                z-index: 5;
+                transform: scale(2);
+            }
         } 
         h5{
             font-size: 2em;
