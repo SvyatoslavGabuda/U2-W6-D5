@@ -35,13 +35,20 @@
     .card{
         border: 2px solid $color7;
         background-color: $color4;
+        border-radius: 40px 0 40px 0;
         color: cambiaColore($color4);
         background-image: $gradien2;
         img{
             border: 10px groove $color10;
+            border-radius: 40px 0 0px 0;
+            transition: 1.5s;
+            
             &:hover{
                 z-index: 5;
-                transform: scale(2);
+                transform: scale(1.8) rotate(360deg);
+                border: 10px groove $color10;
+            border-radius: 0px 0 0px 0;
+                
             }
         } 
         h5{
@@ -53,5 +60,21 @@
         p{
             font-family: monospace;
         }
+    }
+}
+.scrittaCarusel{
+    h5{
+        font-size: 1.5em;
+    font-weight: 800;
+
+    }
+    background-image: $gradien3;
+    border-radius: 50px;
+    color: $colorText;
+    font-size: 1.3em;
+    font-weight: 800;
+    transition: 1s;
+    &:hover {
+        background-color: $color5;
     }
 }
